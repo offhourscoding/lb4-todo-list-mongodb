@@ -12,6 +12,10 @@
     "**/.svn": true,
     "**/CVS": true,
     "dist": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": true,
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
